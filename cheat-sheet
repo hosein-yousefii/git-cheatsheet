@@ -1,0 +1,49 @@
+1- why version control systems are useful?
+
+it allows us to contribute to projects whith no limitation on location.Also, it helps us to control our code from the first day and fix or reset our code easily.
+
+  
+2- what is repository? what are the important files of a good repo?
+
+It's a directory of your project. LICENSE, README and .gitignore are the important files.
+
+
+3- what are the different parts of a good document?
+
+3 parts should be included: an "introduction", "how to" and "contribute"
+
+
+4- what "git clone" does?
+
+It saves a full copy  (including branches and every thing) of our repository on our local machine.
+
+
+5- what should be done to update our local repo with remote?
+
+set our username and mail addr: 
+  git config --global user.name "ali" 
+  git config --global user.email "a@a.com" 
+then
+  git pull
+
+
+6- what is the differences between reset, revert, checkout?
+
+reset= set the current branch "head" to "commit" that is specified
+revert= is used to record some new commits to reverse the effect of some earlier commits from a specified "head"
+checkout= restore a file to a specific version also, change branch.
+
+
+7- what is the differences between merge and rebase?
+
+merge= replay the changes made on the named branch to the current branch from when they diverged.
+rebase= 
+8- what command is used to commits' history?
+
+9- what command is used to see a file's changes?
+
+10- what is it tag? how to create a tag?
+
+11- what are the processes of contributing a project?
+
+12- why branchs are exist? how they can be merged?
