@@ -29,21 +29,37 @@ then
 
 6- what is the differences between reset, revert, checkout?
 
-reset= set the current branch "head" to "commit" that is specified
-revert= is used to record some new commits to reverse the effect of some earlier commits from a specified "head"
+reset= set the current branch "head" to "commit" that is specified and change the log.
+revert= is used to record some new commits to reverse the effect of some earlier commits from a specified "head".
 checkout= restore a file to a specific version also, change branch.
 
 
 7- what is the differences between merge and rebase?
 
 merge= replay the changes made on the named branch to the current branch from when they diverged.
-rebase= 
-8- what command is used to commits' history?
+rebase= a process of moving or combining a sequence of commits to a new base commit and rewrite history.
+
+
+8- what command is used to see commits' history?
+
+git log
 
 9- what command is used to see a file's changes?
 
+git diff
+
 10- what is it tag? how to create a tag?
+
+It's versioning, 
+git tag -a v0.1 -m "first version"
 
 11- what are the processes of contributing a project?
 
-12- why branchs are exist? how they can be merged?
+Firsstly, we should fork the project then add our codes to the project then make a pull request.
+secondly, the head of developers check the pull request and commits.
+Finally, merge our request to the main project.
+
+12- why branches are exist? how they can be merged?
+
+ A pointer to a snapshot of our changes, when we want to add a new feature or fix a bug or something like that we create a branch and work on it.
+ git merge "branch"
