@@ -15,4 +15,4 @@ In case you want to contribute: some additional commands can be useful.
 
 
 
-[@dwsclass](https://github.com/dwsclass) dws-dev-005-git
+Copyright 2021 Hosein Yousefi <yousefi.hosein.o@gmail.com>
